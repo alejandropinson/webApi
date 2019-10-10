@@ -4,7 +4,7 @@ namespace webAPIStarter.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class GreetingController : ControllerBase
+    public class CustomerController : ControllerBase
     {
         [HttpGet]
         public string Get()
@@ -27,7 +27,7 @@ namespace webAPIStarter.Controllers
         [HttpDelete]
         public string Delete()
         {
-            return "Delte method success";
+            return "Delete method success";
         }
     }
 }
